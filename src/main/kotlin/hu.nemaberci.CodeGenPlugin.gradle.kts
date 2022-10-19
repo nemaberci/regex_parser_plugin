@@ -39,9 +39,7 @@ task("generateRegex") {
                             .toFile())
                         codeGenOrchestrator.generateParser(
                             sourceFile.toFile(),
-                            file("build/generated/sources/regex").toPath()
-                                .resolve(srcDir.toPath().relativize(sourceFile))
-                                .toFile()
+                            file("build/generated/sources/regex")
                         )
                     }
             }
