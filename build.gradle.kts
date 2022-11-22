@@ -4,11 +4,11 @@ plugins {
 }
 
 group = "hu.nemaberci"
-version = "1.0.0"
+version = "1.0"
 
 dependencies {
     implementation(kotlin("stdlib"))
-    implementation("hu.nemaberci:code-gen:1.0-SNAPSHOT")
+    implementation("hu.nemaberci:code-gen:1.0")
 }
 
 repositories {

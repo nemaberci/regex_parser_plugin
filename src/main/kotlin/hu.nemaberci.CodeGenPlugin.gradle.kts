@@ -10,7 +10,7 @@ repositories {
 }
 
 dependencies {
-    annotationProcessor("hu.nemaberci:code-gen:1.0-SNAPSHOT")
-    api("hu.nemaberci:regex-api:1.0-SNAPSHOT")
+    annotationProcessor("hu.nemaberci:code-gen:1.0")
+    api("hu.nemaberci:regex-api:1.0")
 }
 
